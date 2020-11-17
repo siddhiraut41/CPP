@@ -1,0 +1,24 @@
+//Create an object of a class and access class attributes
+#include  <iostream>
+using namespace std;
+ 
+class Classroom
+{
+    public:
+    int number;
+        void rollno()
+        {
+                cout << "Roll number: " << number;
+        }
+};
+ 
+int main()
+{
+   Classroom roll_number;
+     roll_number.number=41;
+    roll_number.rollno();
+    cout << endl;
+    
+    
+    return 0;
+}
