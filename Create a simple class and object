@@ -1,0 +1,20 @@
+// Create a simple class and object
+#include  <iostream>
+using namespace std;
+ 
+class Name
+{
+    public:
+        void studentname()
+        {
+                cout << "Student name: Siddhi Raut " << endl;
+        } 
+};
+ //
+int main()
+{
+   Name student0bj; 
+    student0bj.studentname();
+    
+    return 0;
+}
